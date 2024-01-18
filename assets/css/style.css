@@ -19,29 +19,22 @@
     height: 50px;
     background-color: rgba(137, 43, 226, 0.329);
 }
-
 .debug .m2{
     height: 100px;
     background-color: rgba(165, 42, 42, 0.404);
-
 }
-
 .debug .m2-1{
     height: 50px;
     background-color: rgba(95, 158, 160, 0.541);
 }
-
 .debug .m3{
     height: 100px;
     background-color: rgba(158, 107, 107, 0.404);
-
 }
-
 .debug .m3-1{
     height: 50px;
     background-color: rgba(50, 161, 165, 0.541);
 }
-
 .debug .m4{
     height: 100px;
     background-color: rgba(0, 255, 255, 0.336);
@@ -59,7 +52,25 @@
     height: 50px;
     background-color: rgba(137, 43, 226, 0.329);
 }
-
+.debug footer{
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+.debug .f1{
+    height: 250px;
+    background-color: rgba(0, 0, 255, 0.301);
+}
+.debug .f1-big{
+    border-style: dotted;
+}
+.debug .f1-small{
+    border-style: dashed;
+}
+.debug .f2{
+    width: 500px;
+    height: 50px;
+    background-color: rgba(137, 43, 226, 0.315);
+}
 
 
 :root{
@@ -76,10 +87,17 @@ header{
     align-items: center;
 }
 
+footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+
 .m1{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .m2{
@@ -92,7 +110,6 @@ header{
 .m2-1{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .m2-1{
@@ -158,3 +175,29 @@ header{
     justify-content: center;
     align-content: center;
 }
+
+.f1{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.f1-big{
+    flex-grow: 2;
+}
+.f1-small{
+    flex-grow: 1;
+}
+
+.hr{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.f2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

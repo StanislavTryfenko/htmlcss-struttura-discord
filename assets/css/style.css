@@ -181,6 +181,7 @@ footer{
     flex-flow: row;
     justify-content: center;
     align-items: start;
+    margin-top: 4px;
 }
 
 .f1-big{

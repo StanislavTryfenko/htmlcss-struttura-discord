@@ -9,7 +9,7 @@
 }
 .debug main{
     background-color: rgba(137, 43, 226, 0.233);
-    height: 800px;
+    height: 500px;
 }
 .debug .m1{
     height: 100px;
@@ -19,6 +19,48 @@
     height: 50px;
     background-color: rgba(137, 43, 226, 0.329);
 }
+
+.debug .m2{
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.404);
+
+}
+
+.debug .m2-1{
+    height: 50px;
+    background-color: rgba(95, 158, 160, 0.541);
+}
+
+.debug .m3{
+    height: 100px;
+    background-color: rgba(158, 107, 107, 0.404);
+
+}
+
+.debug .m3-1{
+    height: 50px;
+    background-color: rgba(50, 161, 165, 0.541);
+}
+
+.debug .m4{
+    height: 100px;
+    background-color: rgba(0, 255, 255, 0.336);
+}
+.debug .m4-1{
+    height: 50px;
+    background-color: rgba(165, 42, 42, 0.301);
+}
+
+.debug .m5{
+    height: 100px;
+    background-color: rgba(0, 255, 64, 0.226);
+}
+.debug .m5-1{
+    height: 50px;
+    background-color: rgba(137, 43, 226, 0.329);
+}
+
+
 
 :root{
     
@@ -30,7 +72,6 @@ margin: 0;
 
 header{
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
@@ -39,4 +80,81 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.m2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.m2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m2-1{
+    order: 1;
+    flex-grow: 2;
+}
+
+.m2-2{
+    order: 2;
+    flex-grow: 1;
+}
+
+.m3{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.m3-1{
+    order: 1;
+    flex-grow: 2;
+}
+
+.m3-2{
+    order: 2;
+    flex-grow: 1;
+}
+
+.m4{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.m4-1{
+    order: 1;
+    flex-grow: 2;
+}
+
+.m4-2{
+    order: 2;
+    flex-grow: 1;
+}
+
+.m5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbox{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.mbox-rev{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-content: center;
 }
